@@ -115,3 +115,9 @@ register_toolchains(
     "@shellcheck_hub//toolchains:all",
     "@yamlfmt_hub//toolchains:all",
 )
+
+git_override(
+    module_name = "score_tooling",
+    commit = "4797a2889673658bcea8f91b6a8061647288a24c",
+    remote = "https://github.com/eclipse-score/tooling.git",
+)
