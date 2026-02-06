@@ -14,13 +14,15 @@ The following table lists process requirements from our process
 which are not (yet) satisfied,
 i.e. covered by tool requirements.
 
+Priority 1 - Unsatisfied requirements
+-------------------------------------
+
 .. needtable::
    :types: gd_req
    :columns: id;title;tags
    :colwidths: 2;4;2
    :style: table
-   :title: "Priority 1 unsatisfied requirements"
-
+   
    results = []
    ignored_ids = [
       # Impact Analysis is free form text, thus not in scope of docs-as-code
@@ -52,13 +54,14 @@ i.e. covered by tool requirements.
           continue
        results.append(need)
 
+Priority 2 - Unsatisfied requirements
+-------------------------------------
 .. needtable::
    :types: gd_req
    :columns: id;title;tags
    :colwidths: 2;4;2
    :style: table
-   :title: "Priority 2 unsatisfied requirements" 
-
+   
    results = []
    prio = "prio_2"
    for need in needs.filter_types(["gd_req"]):
