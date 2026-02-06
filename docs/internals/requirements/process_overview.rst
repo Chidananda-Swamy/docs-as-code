@@ -10,7 +10,7 @@ how well this tool implements process requirements.
 Unsatisfied Process Requirements
 ################################
 
-The following table lists tool requirements from our process
+The following table lists process requirements from our process
 which are not (yet) satisfied,
 i.e. covered by tool requirements.
 
@@ -19,6 +19,7 @@ i.e. covered by tool requirements.
    :columns: id;title;tags
    :colwidths: 2;4;2
    :style: table
+   :title: "Priority 1 unsatisfied requirements"
 
    results = []
    ignored_ids = [
@@ -56,6 +57,7 @@ i.e. covered by tool requirements.
    :columns: id;title;tags
    :colwidths: 2;4;2
    :style: table
+   :title: "Priority 2 unsatisfied requirements" 
 
    results = []
    prio = "prio_2"
